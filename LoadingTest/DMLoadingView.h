@@ -2,8 +2,8 @@
 //  DMLoadingLayer.h
 //  LoadingTest
 //
-//  Created by 李国民 on 16/1/18.
-//  Copyright © 2016年 李国民. All rights reserved.
+//  Created by GM on 16/1/18.
+//  Copyright © 2016年 GM. All rights reserved.
 //
 
 #import <QuartzCore/QuartzCore.h>

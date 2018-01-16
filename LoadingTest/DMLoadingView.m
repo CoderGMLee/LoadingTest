@@ -2,8 +2,8 @@
 //  DMLoadingLayer.m
 //  LoadingTest
 //
-//  Created by 李国民 on 16/1/18.
-//  Copyright © 2016年 李国民. All rights reserved.
+//  Created by GM on 16/1/18.
+//  Copyright © 2016年 GM. All rights reserved.
 //
 
 #import "DMLoadingView.h"
@@ -16,7 +16,7 @@
 #define KLineWith       2
 #define KFrameInterval  2
 
-@interface DMLoadingView()
+@interface DMLoadingView()<CAAnimationDelegate>
 {
     CGContextRef _context;
     CABasicAnimation * _rotateAnimaiton;
