@@ -26,7 +26,13 @@
     [btn setBackgroundColor:[UIColor grayColor]];
     [btn addTarget:self action:@selector(btnClicked) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btn];
-
+    
+    NSLog(@"test pr");
+    NSLog(@"rebase test");
+    NSLog(@"merge test");
+    NSLog(@"local rebase");
+    NSLog(@"local rebase2");
+    NSLog(@"local rebase3");
 }
 
 - (void)btnClicked{
