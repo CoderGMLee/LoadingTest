@@ -26,6 +26,8 @@
     [btn setBackgroundColor:[UIColor grayColor]];
     [btn addTarget:self action:@selector(btnClicked) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btn];
+    
+    NSLog(@"test pr");
 
 }
 
