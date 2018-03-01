@@ -1,0 +1,127 @@
+.bundle/*
+.Podfile.patch
+# Created by http://www.gitignore.io
+
+### OSX ###
+.DS_Store
+.AppleDouble
+.LSOverride
+.bundle
+
+# Icon must end with two \r
+Icon
+
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# fastlane
+rvm.env
+
+### Objective-C ###
+# Xcode
+#
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+
+# CocoaPods
+#
+# We recommend against adding the Pods directory to your .gitignore. However
+# you should judge for yourself, the pros and cons are mentioned at:
+# http://guides.cocoapods.org/using/using-cocoapods.html#should-i-ignore-the-pods-directory-in-source-control
+#
+Pods/
+
+waimai/ObjectiveC.gcno
+waimai/CoreGraphics.gcno
+
+# RN
+jsbundle
+node_modules
+npmPod.rb
+
+compile_commands.json
+xcodebuild.log
+oclint/index/result.js
+
+waimai/.gitignore
+waimai/.Podfile.patch
+waimai/config.ru
+waimai/Gemfile
+waimai/Rakefile
+waimai/README.rdoc
+waimai/app/assets/images/rails.png
+waimai/app/assets/javascripts/application.js
+waimai/app/assets/stylesheets/application.css
+waimai/app/controllers/application_controller.rb
+waimai/app/helpers/application_helper.rb
+waimai/app/mailers/.gitkeep
+waimai/app/models/.gitkeep
+waimai/app/views/layouts/application.html.erb
+waimai/config/application.rb
+waimai/config/boot.rb
+waimai/config/database.yml
+waimai/config/environment.rb
+waimai/config/routes.rb
+waimai/config/environments/development.rb
+waimai/config/environments/production.rb
+waimai/config/environments/test.rb
+waimai/config/initializers/backtrace_silencers.rb
+waimai/config/initializers/inflections.rb
+waimai/config/initializers/mime_types.rb
+waimai/config/initializers/secret_token.rb
+waimai/config/initializers/session_store.rb
+waimai/config/initializers/wrap_parameters.rb
+waimai/config/locales/en.yml
+waimai/db/seeds.rb
+waimai/doc/README_FOR_APP
+waimai/lib/assets/.gitkeep
+waimai/lib/tasks/.gitkeep
+waimai/log/.gitkeep
+waimai/public/404.html
+waimai/public/422.html
+waimai/public/500.html
+waimai/public/favicon.ico
+waimai/public/index.html
+waimai/public/robots.txt
+waimai/script/rails
+waimai/test/test_helper.rb
+waimai/test/fixtures/.gitkeep
+waimai/test/functional/.gitkeep
+waimai/test/integration/.gitkeep
+waimai/test/performance/browsing_test.rb
+waimai/test/unit/.gitkeep
+waimai/vendor/assets/javascripts/.gitkeep
+waimai/vendor/assets/stylesheets/.gitkeep
+waimai/vendor/plugins/.gitkeep
+
+# fastlane specific
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
