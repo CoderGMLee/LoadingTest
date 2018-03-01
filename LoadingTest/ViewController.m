@@ -28,7 +28,7 @@
     [self.view addSubview:btn];
     
     NSLog(@"test pr");
-
+    NSLog(@"rebase test");
 }
 
 - (void)btnClicked{
