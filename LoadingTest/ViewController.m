@@ -29,6 +29,7 @@
     
     NSLog(@"test pr");
     NSLog(@"rebase test");
+    NSLog(@"merge test");
 }
 
 - (void)btnClicked{
